@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">NASA Api</string>
     <string name="mars_rover_name">Mars Rover Name</string>
+    <string name="camera_name">Camera Name</string>
+    <string name="earth_date">Earth Date</string>
+    <string name="camera_full_name">Camera Full Name</string>
+    <string name="rover_name">Rover Name</string>
+    <string name="nasa_camera_images">Nasa Camera Images</string>
 </resources>
