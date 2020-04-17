@@ -36,6 +36,7 @@ class MainActivity : AppCompatActivity() {
                 is MarsRoverPhotosViewModel.LoadingMarsRoverPhotoState.ERROR -> displayToast(it.message)
             }
         })
+        marsRoverPhotosViewModel.getMarsRoverPhotoDate()
     }
 
     private fun displayProgress(){

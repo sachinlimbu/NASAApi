@@ -7,11 +7,6 @@ import retrofit2.http.GET
 import retrofit2.http.Query
 
 interface MarsRoverPhotosClient {
-//    @GET("{BASE_URL}/rovers/curiosity/photos?sol=1000")
-//    fun getMarsRoverPhotosChoosingRoverCameras(
-//        @Query("api_key") api_key:String = API_KEY
-//    ): Single<NasaMainBase>
-
-    @GET(BASE_URL)
-    fun getMarsRoverPhotosChoosingRoverCameras( @Query("api_key") api_key:String = API_KEY): Single<NasaMainBase>
+    @GET("rovers/curiosity/photos")
+    fun getMarsRoverPhotosChoosingRoverCameras(@Query("sol") sol: Int = 1, @Query("api_key") api_key: String = API_KEY): Single<NasaMainBase>
 }
