@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">NASA Api</string>
+    <string name="mars_rover_name">Mars Rover Name</string>
 </resources>
